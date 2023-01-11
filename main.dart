@@ -43,7 +43,6 @@ class Atm extends Verify {
   void atm2() {
     int balance = 5000;
 
-
     bool run = true;
     while (run) {
       stdout.write(
