@@ -59,7 +59,7 @@ class Bank {
       stdout.write("\nDo You Want to Continue(Y/N) :- ");
       // String ans = stdin.readLineSync() as String;
       ans = int.parse(stdin.readLineSync() as String);
-    } while (1 < ans);
+    } while (1 == ans);
   }
 }
 
